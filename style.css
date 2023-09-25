@@ -5,6 +5,12 @@ font-family: 'Montserrat', sans-serif;-------------*/
 
 /*Global Styles
 -----------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
     color: #343434;
     margin: 0;
