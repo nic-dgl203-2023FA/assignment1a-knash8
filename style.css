@@ -77,13 +77,13 @@ h3 {
 
 /*Profile
 -----------*/
+
 header {
-    background: #22333B;
-    color: #EAE0D5;
-}
-header p {
+    background: #EAE0D5;
+    color: #5E503F;
     font-family: 'Josefin Sans', sans-serif;
     font-style: italic;
+    font-size: 20px;
 }
 
 
@@ -119,6 +119,7 @@ header p {
 -----------*/
 .work-experience {
     background: #EAE0D5;
+    color: #5E503F;
 }
 
 
