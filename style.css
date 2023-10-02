@@ -79,6 +79,33 @@ h3 {
 -----------*/
 
 
+nav {
+    margin: 1rem auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+nav a {
+    color: #0A0908;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.frem 1rem;
+    display: block;
+}
+
+nav a:hover {
+    color: #C6AC8F;
+}
+
+
 /*Profile
 -----------*/
 
