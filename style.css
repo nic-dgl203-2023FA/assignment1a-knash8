@@ -7,7 +7,13 @@ font-family: 'Josefin Sans', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 -------------*/
-
+/* Colour Styles------- 
+black #0A0908
+gunmetal #22333B
+almond #EAE0D5
+khaki #C6AC8F
+walnut brown #5E503F
+-------------*/
 
 /*Global Styles
 -----------*/
@@ -18,7 +24,7 @@ html {
     box-sizing: inherit;
 }
 body {
-    color: #343434;
+    color: #22333B;
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -29,7 +35,7 @@ img {
     width: 300px;
 }
 a {
-    color: #FFE66D;
+    color: #C6AC8F;
 }
 a:hover {
     text-decoration: none;
@@ -72,8 +78,8 @@ h3 {
 /*Profile
 -----------*/
 header {
-    background: #2F3061;
-    color: #F7FFF7;
+    background: #22333B;
+    color: #EAE0D5;
 }
 header p {
     font-family: 'Josefin Sans', sans-serif;
@@ -84,14 +90,14 @@ header p {
 /*Projects
 -----------*/
 .projects {
-   background: #F7FFF7;
+   background: #C6AC8F;
 }
 .projects a {
-   color: #2F3061; 
+   color: #22333B; 
 }
 .projects .btn {
-    color: #F7FFF7;
-    background: #2F3061;
+    color: #EAE0D5;
+    background: #0A0908;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
@@ -112,7 +118,7 @@ header p {
 /*Work Experience
 -----------*/
 .work-experience {
-    background: #A1C6D7;
+    background: #EAE0D5;
 }
 
 
@@ -120,7 +126,7 @@ header p {
 /*Education
 -----------*/
 .education {
-    background-image: url(./images/joanna-kosinska-unsplash.jpg);
+    background-image: url(./images/evabronzini.jpg);
     background-size: cover;
     background-position: top right;
     padding-bottom: 100px;
@@ -133,8 +139,8 @@ header p {
 /*Contact Info
 -----------*/
 footer {
-    background: #343434;
-    color: #F7FFF7;
+    background: #22333B;
+    color: #EAE0D5;
 }
 .contact-list {
     list-style-type: none;
