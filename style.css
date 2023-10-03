@@ -88,7 +88,12 @@ nav ul {
     justify-content: space-evenly;
     margin: 0;
     padding: 1rem;
-    
+     
+}
+
+.navbar {
+    position: sticky;
+    top: 10px;
 }
 
 nav a {
