@@ -77,28 +77,28 @@ h3 {
 
 /*Nav Bar
 -----------*/
-
-
 nav {
-    margin: 1rem auto;
+    background-color: #22333B;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     text-align: center;
-    display: flex;
+    display: flex; 
     justify-content: space-evenly;
+    margin: 0;
+    padding: 1rem;
+    
 }
 
-
 nav a {
-    color: #0A0908;
+    color: #EAE0D5;
     text-decoration: none;
     font-size: 1rem;
-    padding: 0.frem 1rem;
+    padding: 0.5rem 1rem;
     display: block;
+    font-weight: bold;
+    font-size: 1.25rem;
 }
 
 nav a:hover {
@@ -109,12 +109,17 @@ nav a:hover {
 /*Profile
 -----------*/
 
+header p {
+    font-style: italic;
+}
 header {
     background: #EAE0D5;
     color: #22333B;
     font-family: 'Josefin Sans', sans-serif;
-    font-style: italic;
     font-size: 20px;
+}
+header p {
+    font-style: italic;
 }
 
 
@@ -149,8 +154,8 @@ header {
 /*Work Experience
 -----------*/
 .work-experience {
-    background: #EAE0D5;
-    color: #5E503F;
+    background: #0A0908;
+    color: #C6AC8F;
 }
 
 
@@ -162,6 +167,7 @@ header {
     background-size: cover;
     background-position: top right;
     padding-bottom: 100px;
+    color: #0A0908;
 }
 .education p {
     width: 60%;
