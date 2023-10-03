@@ -75,8 +75,11 @@ h3 {
     border-bottom: none;
 }
 
+
+
 /*Nav Bar
 -----------*/
+
 nav {
     background-color: #22333B;
 }
@@ -93,7 +96,7 @@ nav ul {
 
 .navbar {
     position: sticky;
-    top: 10px;
+    top: 0px;
 }
 
 nav a {
@@ -227,5 +230,12 @@ footer {
     }
     .contact-list a {
         padding: 5px;
+    }
+   
+   nav ul {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    font-size: .5rem;
     }
 }
