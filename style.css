@@ -237,5 +237,8 @@ footer {
 /*--------------- 1. navBar -----------*/
 .navBar {
     background-color: #C6AC8F;
+    display: flex;
     justify-content: center;
+    
+    
 }
