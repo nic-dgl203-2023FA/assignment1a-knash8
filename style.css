@@ -239,6 +239,21 @@ footer {
     background-color: #C6AC8F;
     display: flex;
     justify-content: center;
-    
-    
+       
+}
+
+/*---------------- 3. Header ---------------*/
+
+.animation {
+    background-color: #22333B;
+    padding-top: 20px;
+}
+.animation h1{ 
+    color: #EAE0D5;
+}
+
+/*--------------2. grid -----------------*/
+
+.grid-container{
+    font-display: grid;
 }
