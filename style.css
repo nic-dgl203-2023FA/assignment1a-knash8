@@ -327,8 +327,11 @@ body{
     }
 }
 
-.grid-item-4{
-    font-size: 30px;
+.grid-item-4 p{
+    font-size: 20px;
     font-weight: bold;
+    display: flex;
+    align-self: center;
+    justify-content: center;
 
 }
