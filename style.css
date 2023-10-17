@@ -373,4 +373,13 @@ body{
         border-color: #0A0908;
     }
 }
+.grid-item-5{
+    color: #0A0908;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
