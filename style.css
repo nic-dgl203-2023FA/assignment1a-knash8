@@ -308,5 +308,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 2s ease;
+    animation: growShrinkgrow 16s infinite;
+}
 
+@keyframes growShrinkgrow{
+    0%{
+        font-size: 30px;
+    }
+    30%{
+        font-size: 50px;
+    }
+    70%{
+        font-size: 15px;
+    }
+    100%{
+        font-size: 30px;
+    }
 }
