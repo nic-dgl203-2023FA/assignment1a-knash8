@@ -255,5 +255,7 @@ footer {
 /*--------------2. grid -----------------*/
 
 .grid-container{
-    font-display: grid;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 10px;
 }
