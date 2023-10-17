@@ -299,5 +299,14 @@ body{
     align-self: center;
     display: block;
     font-family:'Josefin Sans', sans-serif ;
+}
+
+.grid-item-2 {
+    color: #0A0908;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
