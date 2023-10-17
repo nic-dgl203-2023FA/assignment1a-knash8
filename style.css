@@ -338,12 +338,24 @@ body{
         font-size: 30px;
     }
 }
+
+
 .grid-item-3 {
     justify-self: center;
     align-self: center;
+    overflow: hidden;
+    animation: sweep 5s infinite;
+    
+    
 }
 .grid-item-3 img {
     width: 100px;
+    
+}
+@keyframes sweep {
+    0% {transform:translateX(0);}
+    50% {transform:translateX(-800px);}
+    100% {transform:translateX(0);}
 }
 
 .grid-item-4 h1{
