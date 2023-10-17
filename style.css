@@ -245,8 +245,8 @@ footer {
 /*---------------- 3. Header ---------------*/
 
 .animation {
-    background-color: #22333B;
     padding-top: 20px;
+    background-color: #22333B;
 }
 .animation h1{ 
     color: #EAE0D5;
@@ -255,8 +255,17 @@ footer {
 /*--------------2. grid -----------------*/
 
 .grid-container{
+    
+    background-color: #C6AC8F;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    gap:10px 10px;
+    
+    
+ }
+.grid-item-button{
+    color: #EAE0D5;
+    background-color: #22333B;
+    border:1px solid #EAE0D5;
+    text-align: center;
+    
 }
