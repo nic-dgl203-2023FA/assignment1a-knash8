@@ -258,5 +258,5 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    gap: 10px 10px;
+    gap:10px 10px;
 }
