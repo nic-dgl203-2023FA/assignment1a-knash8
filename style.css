@@ -431,11 +431,23 @@ span:nth-child(5){
     display: flex;
     justify-self: center;
     align-self: center;
-    
+    animation: bounce 2s cubic-bezier(0.68, 0, 0.27, 1.55) infinite;
 }
+
 
 .grid-item-6 img {
     width: 100px;
 }
 
-
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-100px);
+      }
+      60% {
+        transform: translateY(-75px);
+      }
+}
+/* used chatgpt for help on grid-item-6 - make an image bounce with a css cubic bezier curve*/
