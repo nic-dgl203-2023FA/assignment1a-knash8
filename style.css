@@ -427,4 +427,15 @@ span:nth-child(5){
     animation-delay: 0.8s;
 }
 
+.grid-item-6 {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+.grid-item-6 img {
+    width: 100px;
+}
+
 
