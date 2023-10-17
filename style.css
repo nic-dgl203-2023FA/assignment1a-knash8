@@ -338,7 +338,11 @@ body{
         font-size: 30px;
     }
 }
-.grid-item-3 img{
+.grid-item-3 {
+    justify-self: center;
+    align-self: center;
+}
+.grid-item-3 img {
     width: 100px;
 }
 
