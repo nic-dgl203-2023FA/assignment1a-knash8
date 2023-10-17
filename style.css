@@ -85,7 +85,7 @@ nav ul {
     list-style-type: none;
     text-align: center;
     display: flex; 
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 0;
     padding: 1rem;
      
@@ -266,6 +266,7 @@ body{
     grid-template-rows: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 20px;
     
     
  }
@@ -327,11 +328,37 @@ body{
     }
 }
 
-.grid-item-4 p{
+.grid-item-4 h1{
+    color: #0A0908;
     font-size: 20px;
     font-weight: bold;
-    display: flex;
+    font-family: 'Josefin Sans', sans-serif ;
     align-self: center;
     justify-content: center;
+    overflow: hidden;
+    border-right: 3px solid #0A0908;
+    white-space: nowrap;
+    margin: 0 auto;
+    padding: .5em;
 
+    letter-spacing: 2px;
+
+    animation: typing 14s steps(40, end),
+    blinking .5s step-end infinite;
+}
+@keyframes typing{
+    0%{
+        width:0px;
+    }
+    100%{
+        width:100%
+    }
+}
+@keyframes blinking{
+    0%, 100%{
+        border-color: transparent;
+    }
+    50% {
+        border-color: #0A0908;
+    }
 }
