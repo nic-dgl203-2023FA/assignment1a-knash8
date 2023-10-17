@@ -109,7 +109,10 @@ nav a {
 nav a:hover {
     color: #C6AC8F;
 }
-
+.li {
+    height: 5%;
+    width: auto;
+}
 /*Profile
 -----------*/
 
