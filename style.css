@@ -259,13 +259,25 @@ footer {
     background-color: #C6AC8F;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-top: 10px;
+    padding-bottom: 10px;
     
     
  }
 .grid-item-button{
-    color: #EAE0D5;
-    background-color: #22333B;
-    border:1px solid #EAE0D5;
+   
+    color: #22333B;
+    background-color: #EAE0D5;
+    border:1px solid #22333B;
     text-align: center;
+    justify-self: center;
+    width: 50%;
+    font-size: 16px;
+    border-radius: 50%;
+    transition-duration: .3s;
     
+}
+.grid-item-button:hover{
+background-color: #22333B;
+color: #EAE0D5
 }
