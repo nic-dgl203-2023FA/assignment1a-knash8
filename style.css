@@ -34,8 +34,15 @@ body {
 img {
     width: 300px;
 }
-a {
-    color: #C6AC8F;
+.projects a {
+    color: #EAE0D5;
+    text-decoration: none;
+}
+
+.projects p a {
+    color: #0A0908;
+    text-decoration: underline;
+    
 }
 a:hover {
     text-decoration: none;
@@ -76,48 +83,10 @@ h3 {
 }
 
 
-/*Nav Bar
------------*/
-
 /*Profile
 -----------*/
-.logo img {
-    width: 300px; 
-    height: auto;
-    justify-self: center;
-}
-.navbar {
-    background-color: #0A0908; 
-    padding: 20px; 
-    display: flex; 
-    flex-direction: row-reverse;
-    }
 
 
-.navbar-button{
-    background-color: #0A0908;
-    border: none;
-    
-   
-}
-
-.navbar-button a{
-    
-    color: #EAE0D5;
-    font-family:'Josefin Sans', sans-serif;
-    font-size: 25px;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;    
-}
-
-.navbar-button:hover{
-    background-color: #EAE0D5;
-    text-decoration: underline;
-}
-.navbar-button:hover a{
-    color: #22333B;
-}
 header p {
     font-style: italic;
 }
@@ -130,7 +99,45 @@ header {
 header p {
     font-style: italic;
 }
+.logo img {
+    width: 50px; 
+    height: auto;
+    justify-self: center;
+}
 
+.motion-button{
+    color: #EAE0D5;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #0A0908;
+    text-decoration: none;
+    
+}
+.animation-button{
+    color: #EAE0D5;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #0A0908;
+    border: none;   
+    text-decoration: none;
+}
+
+.motion-button:hover{
+    background-color: #EAE0D5;
+    text-decoration: underline;
+    color: #22333B;
+}
+.animation-button:hover{
+    background-color: #EAE0D5;
+    text-decoration: underline;
+    color: #22333B;
+}
 /*Projects
 -----------*/
 .projects {
@@ -228,8 +235,8 @@ footer {
         padding: 5px;
     }
    
-   nav ul {
-    flex-direction: column;
+   nav {
+    display: flex;
     width: 100%;
     padding: 0;
     font-size: .5rem;
@@ -242,30 +249,18 @@ footer {
     }
 }
 
-/*Amimation Page
+/*Motion Page
 -----------*/
 body{
-    background-color: #343434;
+    background-color: #0A0908;
 }
 
 
-/*--------------- 1. navBar -----------*/
-.navBar {
-    background-color: #343434;
-    display: flex;
-    justify-content: center;
-       
-}
+/*--------------- navBar -----------*/
 
-/*---------------- 3. Header ---------------*/
 
-.animation {
-    padding-top: 20px;
-    background-color: #343434;
-}
-.animation h1{ 
-    color: #EAE0D5;
-}
+
+
 
 /*--------------2. grid -----------------*/
 
@@ -324,20 +319,7 @@ body{
     animation: growShrinkgrow 16s infinite;
 }
 
-@keyframes growShrinkgrow{
-    0%{
-        font-size: 30px;
-    }
-    30%{
-        font-size: 50px;
-    }
-    70%{
-        font-size: 15px;
-    }
-    100%{
-        font-size: 30px;
-    }
-}
+
 
 
 .grid-item-3 {
@@ -351,11 +333,6 @@ body{
 .grid-item-3 img {
     width: 100px;
     
-}
-@keyframes sweep {
-    0% {transform:translateX(0);}
-    50% {transform:translateX(-800px);}
-    100% {transform:translateX(0);}
 }
 
 .grid-item-4 h1{
@@ -373,25 +350,10 @@ body{
 
     letter-spacing: 2px;
 
-    animation: typing 14s steps(40, end),
+    animation: typing 6s steps(40, end),
     blinking .5s step-end infinite;
 }
-@keyframes typing{
-    0%{
-        width:0px;
-    }
-    100%{
-        width:100%
-    }
-}
-@keyframes blinking{
-    0%, 100%{
-        border-color: transparent;
-    }
-    50% {
-        border-color: #0A0908;
-    }
-}
+
 
 
 .grid-item-5 {
@@ -443,6 +405,47 @@ body{
     width: 100px;
 }
 
+/*keyframes*/ 
+@keyframes growShrinkgrow{
+    0%{
+        font-size: 30px;
+    }
+    30%{
+        font-size: 50px;
+    }
+    70%{
+        font-size: 15px;
+    }
+    100%{
+        font-size: 30px;
+    }
+}
+
+@keyframes sweep {
+    0% {transform:translateX(0);}
+    50% {transform:translateX(-800px);}
+    100% {transform:translateX(0);}
+}
+
+
+@keyframes typing{
+    0%{
+        width:0px;
+    }
+    100%{
+        width:100%
+    }
+}
+
+@keyframes blinking{
+    0%, 100%{
+        border-color: transparent;
+    }
+    50% {
+        border-color: #0A0908;
+    }
+}
+
 @keyframes flipUp {
     0%,100% {transform:rotate(0deg);}
     50%{transform: rotateX(180deg);}
@@ -461,3 +464,17 @@ body{
       }
 }
 /* used chatgpt for help on grid-item-6 - make an image bounce with a css cubic bezier curve*/
+
+nav {
+    width: 100%;
+    background-color: #964c02;
+}
+nav .navBar {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    color: #EAE0D5;
+}

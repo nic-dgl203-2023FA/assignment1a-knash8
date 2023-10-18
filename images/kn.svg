@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 102px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <text class="cls-1" transform="translate(28.08 95.03)"><tspan x="0" y="0">K</tspan></text>
+    <text/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <text class="cls-1" transform="translate(63.6 90.42)"><tspan x="0" y="0">N</tspan></text>
+  </g>
+</svg>
