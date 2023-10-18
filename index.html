@@ -4,48 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krista Assignment 1A</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:ital,wght@0,400;1,600&family=Open+Sans&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans:ital@0;1&family=Montserrat:ital,wght@0,400;1,600&family=Open+Sans&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      
   </head>
   <body>
     <main>
-      <!-- ***********************  ABOUT / PROFILE  *********************** -->
-      <header>
-        <nav class="navbar">        
-          <button class="navbar-button"><a href="motion.html">Motion</a>
-          </button>
-          <button class="animation-button"><a href="animation.html">Animation</a>
-          </button>
+      <!-- ***********************  Nav Bar  *********************** -->
+            
+      
+        <nav>
+          <div class="navBar">
+
+            <div class="logo">
+              <a href="index.html"><img src="images/knblk.svg" width="50" alt="Logo"></a>
+            </div>
+            <span>
+              
+              <button class="motion-button"><a href="motion.html">MOTION</a>
+              </button>
+              <button class="animation-button"><a href="animation.html">ANIMATION</a>
+              </button>
+            </span>
+          </div>        
         </nav>
 
-        <div class="logo">
-          <img src="images/kris.svg" alt="Logo">
-        </div>
 
+              
         <!-- ***********************  ABOUT / PROFILE  *********************** -->     
+      <header>  
         <div class="content-wrap">
-          <h1>Krista Nash</h1>
-          <h2>Assignment 1A</h2>
+          <h1 id="about">Krista Nash</h1>
+          <h2>DGL 203 Advanced CSS</h2>
 
-          <p>Add your profile copy here. Add more paragraphs or links as needed. Here is some dummy text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum, diam ut gravida efficitur, risus neque scelerisque erat, ut rhoncus erat odio ac justo. Nunc scelerisque vestibulum augue, sit amet hendrerit ante.</p>
-          <p>Add another paragraph if needed.</p>
+          <p>Communication Design student by day, chauffeur extraordinaire to the 4 humans I made by night. I am three years into a two year program and decided to bump my schedule to full time this term. Graduation is just around the corner. I look forward to entering the work force but most off all continuing to learn in the design community. </p>
         </div>
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
       <section class="projects">
         <div class="content-wrap divider">
-          <h2>Featured Projects</h2>
-          <p>View selected projects below. More information can be found at <a href="http://christinatruong.com">christinatruong.com</a>.</p>
+          <h2 id="projects">Featured Projects</h2>
+          <p>View selected projects below. More information can be found at <a href="https://www.behance.net/kristanash1">www.behance.net/kristanash1</a></p>
 
         <!-- Copy the whole <section> block to add more projects. -->
           <section class="project-item">
-            <img src="images/project-courses.jpg" alt="Lynda & LinkedIn Learning Course List">
-            <h3>Project Name</h3>            
-            <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-            <a class="btn" href="#" target="_blank">View project / case study</a>
+            <img src="images/advert.jpg" alt="Girl in the fishbowl advert">
+            <h3>Poster design for a local theatre production</h3>            
+            <p>We were asked to design a poster for a local theatre production. We were given a list of what the poster required but were given the freedom to design the main content.</p>
+            <a class="btn" href="https://www.behance.net/kristanash1" target="_blank">View project</a>
+          </section>
+
+          <section class="project-item">
+            <img src="images/fin247.jpg" alt="Digital photography">
+            <h3>Digital Photography Project</h3>            
+            <p>We were asked to create a collection of 6 photographs with the theme "Return to Water".</p>
+            <a class="btn" href="https://www.behance.net/kristanash1" target="_blank">View project</a>
+          </section>
+
+          <section class="project-item">
+            <img src="images/honeycan.jpg" alt="Branding">
+            <h3>Branding Project</h3>            
+            <p>We were asked to create a brand mockup for a brewing program. Each student was asked to design a logo, 2 can designs, and merchandise.</p>
+            <a class="btn" href="https://www.behance.net/kristanash1" target="_blank">View project</a>
+          </section>
+
+          <section class="project-item">
+            <img src="images/instastory.jpg" alt="Social Media">
+            <h3>Social Media Marketing Campaign</h3>            
+            <p>Each student chose a local business and created a Social Media Marketing Campaign</p>
+            <a class="btn" href="https://www.behance.net/kristanash1" target="_blank">View project</a>
           </section>
         <!-- End of Project block. -->
         </div>
@@ -54,24 +87,23 @@
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class="work-experience">
         <div class="content-wrap item-details divider">
-          <h2>Work Experience</h2>
-          <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
+          <h2 id="work">Work Experience</h2>
+          <p>Currently enrolled in the Communication Design Program at North Island College</p>
 
           <!-- Copy this whole <section> block to add more jobs. -->
           <section class="job-item">
             <div class="job-details">
-              <h3>Job title</h3>
-              <p>Company Name</p>
-              <p>Date at job</p>
+              <h3>Program Coordinator</h3>
+              <p>Claybank Brick Plant National Historic Site</p>
+              <p>April 2017 - August 2019</p>
             </div>
             <div class="job-summary">
-              <p>Job summary goes here. Add as many paragraphs as you need.</p>
-              <p>Optional list:</p>
+              <p>Successfully planned and executed fundraisers in order to maintain operations after losing provincial funding.</p>
+              <p>Daily tasks:</p>
               <ul>
-                <li>Delete this list if you don't need it.</li>
-                <li>Created...</li>
-                <li>Lead...</li>
-                <li>Responsible for...</li>
+                <li>Organize fundraising events and school tours</li>
+                <li>Plan and implement a variety of community programs, services and promotions for all ages</li>
+                <li>Manage social media platforms</li>
               </ul>
             </div>
             
@@ -83,13 +115,14 @@
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
       <section class="education">
         <div class="content-wrap item-details">
-          <h2>Education</h2>
+          <h2 id="education">Education</h2>
 
           <!-- Copy this whole <section> block to add more schools. -->
           <section>
-            <h3>School name - City</h3>
-            <p>Designation received or program name, year attended</p>
-            <p>Summary or accomplishments.</p>
+            <h3>North Island College</h3>
+            <p>Currently enrolled in the Communication Design Program</p>
+            <p>Awarded Deans' Honour Roll 2022</p>
+            <p>Recieved Susan 'Suzie' English Commemorative Bursary 2023 </p>
           </section>
           <!-- End of School block. -->
         </div>
@@ -98,16 +131,14 @@
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
         <div class="content-wrap">
-          <h2>Let's Keep in Touch!</h2>
+          <h2 id="contact">Let's Keep in Touch!</h2>
 
           <!-- Social media and contact links. Add or remove any networks. -->
 
           <ul class="contact-list">
-            <li><a href="mailto:email@example.com">email@example.com</a></li>
-            <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
-            <li><a href="#" target="_blank">Twitter</a></li>
-            <li><a href="#" target="_blank">LinkedIn</a></li>
-            <li><a href="#" target="_blank">Facebook</a></li>
+            <li><a href="mailto:knash1@northislandcollege.ca">knash1@northislandcollege.ca</a></li>
+            <li><a href="https://www.behance.net/kristanash1" target="_blank">Profile</a></li>
+            <li><a href="https://www.instagram.com/prairiebrickdesigns/" target="_blank">Instagram</a></li>
           </ul>
         </div>
       </footer>
