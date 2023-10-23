@@ -179,7 +179,8 @@ color: #0A0908;
     display: inline-block;
 }
 .projects .btn:hover {
-    background: rgba(47, 48, 97, 80%);
+    background: #EAE0D5;
+    color: #0A0908;
 }
 .project-item {
     overflow: hidden;
