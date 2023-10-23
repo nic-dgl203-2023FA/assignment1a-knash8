@@ -159,9 +159,10 @@ header p {
 -----------*/
 .projects {
    background: #C6AC8F;
+   color: #0A0908;
 }
 .projects a {
-   color: #22333B; 
+   color: #0A0908; 
 }
 .content-wrap a {
 color: #0A0908;
