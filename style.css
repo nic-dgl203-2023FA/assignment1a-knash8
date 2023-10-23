@@ -109,7 +109,7 @@ header p {
 .motion-button{
     color: #0A0908;
     font-family:'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     border: none;
     margin: 5px;
     cursor: pointer;
@@ -121,7 +121,7 @@ header p {
 .animation-button{
     color: #0A0908;
     font-family:'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     border: none;
     margin: 5px;
     cursor: pointer;
@@ -129,8 +129,7 @@ header p {
     background-color: #964c02;
     border: none;   
     text-decoration: none;
-    box-shadow:0px 0px 2px 5px rgba(10, 9, 8, 0.29);
-    
+       
 }
 .animation-button a{
     text-decoration: none;
