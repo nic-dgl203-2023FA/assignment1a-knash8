@@ -50,6 +50,7 @@ a:hover {
 h1 {
     font-size: 100px;
     line-height: 1;
+    padding-top: 40px;
 }
 h2 {
     font-size: 45px;
@@ -106,26 +107,35 @@ header p {
 }
 
 .motion-button{
-    color: #EAE0D5;
+    color: #0A0908;
     font-family:'Josefin Sans', sans-serif;
     font-size: 25px;
     border: none;
     cursor: pointer;
     text-decoration: none;
-    background-color: #0A0908;
+    background-color: #964c02;
     text-decoration: none;
     
 }
 .animation-button{
-    color: #EAE0D5;
+    color: #0A0908;
     font-family:'Josefin Sans', sans-serif;
     font-size: 25px;
     border: none;
     cursor: pointer;
     text-decoration: none;
-    background-color: #0A0908;
+    background-color: #964c02;
     border: none;   
     text-decoration: none;
+}
+.animation-button a{
+    text-decoration: none;
+    color: #0A0908;
+}
+
+.motion-button a{
+    text-decoration: none;
+    color: #0A0908;
 }
 
 .motion-button:hover{
@@ -188,8 +198,8 @@ header p {
 /*Contact Info
 -----------*/
 footer {
-    background: #22333B;
-    color: #EAE0D5;
+    background: #964c02;
+    color: #0A0908;
 }
 .contact-list {
     list-style-type: none;
