@@ -144,16 +144,16 @@ header p {
 }
 
 .motion-button:hover{
-    background-color: #EAE0D5;
-    text-decoration: underline;
-    color: #22333B;
-    box-shadow:0px 0px 2px 5px rgba(10, 9, 8, 0.29);
+    background-color: #0A0908;
+    border: #0A0908;
+    color: #EAE0D5;
+    box-shadow:0px 0px 2px 5px rgba(10, 9, 8, 0.15);
 }
 .animation-button:hover{
-    background-color: #EAE0D5;
-    text-decoration: underline;
-    color: #22333B;
-    box-shadow:0px 0px 2px 5px rgba(10, 9, 8, 0.29);
+    background-color: #0A0908;
+    border: #0A0908;
+    color: #EAE0D5;
+    box-shadow:0px 0px 2px 5px rgba(10, 9, 8, 0.15);
 }
 /*Projects
 -----------*/
@@ -162,6 +162,13 @@ header p {
 }
 .projects a {
    color: #22333B; 
+}
+.content-wrap a {
+color: #0A0908;
+}
+.content-wrap a:hover{
+    color: #EAE0D5;
+    background-color: #343434;
 }
 .projects .btn {
     color: #EAE0D5;
