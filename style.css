@@ -679,3 +679,24 @@ nav .navBar {
     padding-top: 20px;
     color: #EAE0D5;
 }
+
+/* variable fonts*/
+
+.animation-header {
+    font-family: 'Recursive', sans-serif;
+    font-size: 100px;
+
+    animation: vars 8s infinite linear;
+}
+
+@keyframes vars {
+    0%{
+      font-variation-settings: "CASL" 1, "CRSV" 1, "wght" 300, "slnt" 0;  
+    }
+    25%{
+        font-variation-settings: "CASL" 0, "CRSV" 0, "wght" 600, "slnt" -10;
+    }
+    75%{
+        font-variation-settings: "CASL" 0, "CRSV" 0, "wght" 300, "slnt" -10;
+    }
+}
