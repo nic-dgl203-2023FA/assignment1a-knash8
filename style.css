@@ -433,42 +433,55 @@ body{
 
 /*animation*/
 
-#Layer_2 {
-    visibility: hidden;
-    animation: fade 5s linear;
-    
-}
 
-#Layer_3 {
-    visibility: hidden;
-    animation: fade 5s 1s ease-in-out;
-    
+
+#Layer_3 { 
+    transform-origin: center;   
+    animation: fly2 5s alternate-reverse infinite;
 }
 
 #Layer_4 {
-    visibility: hidden;
-    animation: fade 5s 2s ease-in-out;
     
+    animation: fade 5s 2s ease-in-out infinite; 
 }
 
 #Layer_5 {
-    visibility: hidden;
-    animation: fade 5s 3s ease-in-out;
     
+    animation: fade 5s 1s ease-in-out infinite;
 }
 
 #Layer_6 {
-    visibility: hidden;
-    animation: fade 5s 4s ease-in-out;
     
+    animation: fade 5s ease-in-out infinite;
 }
 
 #Layer_7 {
-    visibility: hidden;
-    animation: fade 5s 5s ease-in-out;
-    
+   
+    animation: fade 5s 5s ease-in-out infinite;
 }
+
+#Layer_2 {
+    animation: fly 5s 5s alternate-reverse infinite;
+    transform-origin: center;
+}
+
 /*keyframes*/ 
+@keyframes fly{
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+      }
+      100% {
+        transform: translate(500px, -400px) rotate(90deg);
+      }
+}
+@keyframes fly2{
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+      }
+      100% {
+        transform: translate(-500px, -400px) rotate(180deg);
+      }
+}
 @keyframes growShrinkgrow{
     0%{
         font-size: 30px;
@@ -546,6 +559,8 @@ body{
     }
     
 }
+
+
 
 
 
