@@ -442,7 +442,7 @@ body{
 
 #Layer_4 {
     
-    animation: fade 5s 2s ease-in-out infinite; 
+    animation: fade 5s 5s ease-in-out infinite;
 }
 
 #Layer_5 {
@@ -452,12 +452,15 @@ body{
 
 #Layer_6 {
     
-    animation: fade 5s ease-in-out infinite;
+animation: fade 5s linear infinite;
+  transform-origin: center;
+  opacity: 0;
+
 }
 
 #Layer_7 {
-   
-    animation: fade 5s 5s ease-in-out infinite;
+    animation: expandAndFly 5s linear infinite;
+    transform-origin: center;
 }
 
 #Layer_2 {
@@ -476,12 +479,23 @@ body{
 }
 @keyframes fly2{
     0% {
-        transform: translate(0, 0) rotate(0deg);
+        transform: translate(0, 0) rotate(90deg);
       }
       100% {
         transform: translate(-500px, -400px) rotate(180deg);
       }
 }
+@keyframes expandAndFly {
+    0% {
+        transform: translate(0, 0) scale(1) rotate(90deg);
+      }
+      50% {
+        transform: translate(0, 0) scale(2) rotate(450deg);
+      }
+      100% {
+        transform: translate(0, 0) scale(0) translateZ(-1200px) rotate(0deg);
+      }
+    }
 @keyframes growShrinkgrow{
     0%{
         font-size: 30px;
@@ -542,23 +556,18 @@ body{
 
 @keyframes fade {
     0% {
-        visibility: visible;
-        opacity: 0;
-    } 
-    25% {
-        opacity: .5;
-    }  
-    50% {
-        opacity: 1;
-    }  
-    75% {
-        opacity: .5;
-    } 
-    100% {
-        opacity: .25;
+        transform: translate(0, 0) rotate(0deg);
+        opacity: 0; 
+      }
+      50% {
+        transform: translate(0, 0) rotate(0deg);
+        opacity: 1; 
+      }
+      100% {
+        transform: translate(0, 0) rotate(180deg);
+        opacity: 1; 
+      }
     }
-    
-}
 
 
 
