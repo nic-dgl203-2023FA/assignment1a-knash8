@@ -225,8 +225,8 @@ color: #0A0908;
 /*Education
 -----------*/
 .education {
-    background-image: url(./images/evabronzini.jpg);
-    background-size: cover;
+    background-image: linear-gradient(rgba(247, 247, 247, 0.9), rgba(255, 254, 254, 0.9)),url(./images/pollio.jpg);
+    background-size: contain;
     background-position: top right;
     padding-bottom: 100px;
     color: #0A0908;
