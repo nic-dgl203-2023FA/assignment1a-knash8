@@ -111,7 +111,9 @@ header p {
     width: 60px; 
     height: auto;
     justify-self: center;
+    
 }
+
 
 .motion-button{
     color: #0A0908;
@@ -507,8 +509,24 @@ animation: fade 5s linear infinite;
 
 
 /*keyframes*/ 
+.logo {
+    animation: spin 4s linear infinite; 
+  }
 
-
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+      transform-origin: center;
+    }
+    50% {
+      transform: rotate(180deg); 
+      transform-origin: center;
+    }
+    100% {
+      transform: rotate(360deg);
+      transform-origin: center;
+    }
+  }
 
 @keyframes fadeAndMove {
     0% {
