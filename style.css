@@ -179,6 +179,8 @@ header p {
 .projects {
    background: #EAE0D5;
    color: #0A0908;
+   
+
 }
 .projects a {
    color: #0A0908; 
@@ -204,6 +206,7 @@ color: #0A0908;
 }
 .project-item {
     overflow: hidden;
+    
 }
 
 .project-item h3 {
