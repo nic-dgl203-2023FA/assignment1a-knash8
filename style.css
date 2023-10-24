@@ -82,7 +82,14 @@ h3 {
 .divider > section:last-of-type {
     border-bottom: none;
 }
-
+.intro{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(./images/rafael.jpg);
+    background-size: cover;
+    background-position: top right;
+   
+    position: relative;
+}
 
 /*Profile
 -----------*/
@@ -101,7 +108,7 @@ header p {
     font-style: italic;
 }
 .logo img {
-    width: 50px; 
+    width: 60px; 
     height: auto;
     justify-self: center;
 }
@@ -110,6 +117,7 @@ header p {
     color: #0A0908;
     font-family:'Josefin Sans', sans-serif;
     font-size: 25px;
+    justify-self: center;
     border: none;
     margin: 5px;
     cursor: pointer;
@@ -122,7 +130,7 @@ header p {
     color: #0A0908;
     font-family:'Josefin Sans', sans-serif;
     font-size: 25px;
-    
+    justify-self: center;
     margin: 5px;
     cursor: pointer;
     text-decoration: none;
@@ -133,16 +141,17 @@ header p {
 }
 .animation-button a{
     padding: 5px;
-    margin-bottom: 3px;
+    
     text-decoration: none;
     color: #0A0908;
     border: 4px double #EAE0D5;
+   
     
 }
 
 .motion-button a{
     padding: 5px;
-    margin-bottom: 3px;
+    
     text-decoration: none;
     color: #0A0908;
     border: 4px double #EAE0D5;
@@ -154,7 +163,7 @@ header p {
     border: #0A0908;
     color: #EAE0D5;
     border: 4px double #EAE0D5;
-    box-shadow:5px whitesmoke;
+   
     
 }
 .animation-button a:hover{
@@ -162,13 +171,13 @@ header p {
     border: #0A0908;
     color: #EAE0D5;
     border: 4px double #EAE0D5;
-    box-shadow:5px whitesmoke;
+   
     
 }
 /*Projects
 -----------*/
 .projects {
-   background: #C6AC8F;
+   background: #EAE0D5;
    color: #0A0908;
 }
 .projects a {
