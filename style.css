@@ -442,7 +442,7 @@ body{
 
 #Layer_4 {
     
-    animation: fade 5s 5s ease-in-out infinite;
+    animation: fade 5s  ease-in-out infinite;
 }
 
 #Layer_5 {
@@ -452,7 +452,7 @@ body{
 
 #Layer_6 {
     
-animation: fade 5s linear infinite;
+animation: fade 8s linear infinite;
   transform-origin: center;
   opacity: 0;
 
@@ -468,9 +468,37 @@ animation: fade 5s linear infinite;
     transform-origin: center;
 }
 
+#g, #b, #o, #o2, #o3, #o4, #o5 {
+    transform-origin: center;    
+    filter: drop-shadow(0 4px 6px rgba(255, 255, 255, 1));
+  }
+#b {
+    animation: fadeAndMove 5s alternate-reverse infinite;
+}
+#o4 {
+    animation: fadeAndMove 5s alternate-reverse infinite;
+}
+#o5 {
+    animation: fadeAndMove 5s alternate-reverse infinite;
+}
 
 
 /*keyframes*/ 
+
+@keyframes fadeAndMove {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(400px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(800px);
+    }
+}
 @keyframes fly{
     0% {
         transform: translate(0, 0) rotate(0deg);
