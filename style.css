@@ -495,7 +495,7 @@ animation: fade 5s linear infinite;
 
 #g, #b, #o, #o2, #o3, #o4, #o5 {
     transform-origin: center;    
-    filter: drop-shadow(0 4px 6px rgba(255, 255, 255, 1));
+    filter: drop-shadow(0 6px 8px rgba(255, 255, 255, 1));
   }
 #b {
     animation: fadeAndMove 5s alternate-reverse infinite;
@@ -682,7 +682,13 @@ nav .navBar {
 
 /* variable fonts*/
 
-.animation-header {
+.animation-header{
+    font-family: 'Recursive', sans-serif;
+    font-size: 100px;
+
+    animation: vars 8s infinite linear;
+}
+.motion-header{
     font-family: 'Recursive', sans-serif;
     font-size: 100px;
 
@@ -699,4 +705,7 @@ nav .navBar {
     75%{
         font-variation-settings: "CASL" 0, "CRSV" 0, "wght" 300, "slnt" -10;
     }
+    100%{
+        font-variation-settings: "CASL" 1, "CRSV" 1, "wght" 300, "slnt" -5;  
+      }
 }
