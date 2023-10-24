@@ -452,7 +452,7 @@ body{
 
 #Layer_6 {
     
-animation: fade 8s linear infinite;
+animation: fade 5s linear infinite;
   transform-origin: center;
   opacity: 0;
 
@@ -464,7 +464,7 @@ animation: fade 8s linear infinite;
 }
 
 #Layer_2 {
-    animation: fly 5s 5s alternate-reverse infinite;
+    animation: fly 5s alternate-reverse infinite;
     transform-origin: center;
 }
 
@@ -532,12 +532,12 @@ animation: fade 8s linear infinite;
             opacity: 0; 
           }
           50% {
-            transform: translate(0, 0) rotate(0deg);
+            transform: translate(0, 0) rotate(180deg);
             opacity: 1; 
           }
           100% {
-            transform: translate(0, 0) rotate(180deg);
-            opacity: 1; 
+            transform: translate(0, 0) rotate(360deg);
+            opacity: 0; 
           }
         }
 
