@@ -146,107 +146,77 @@ header {
     justify-self: center;
     
 }
-
-
-.motion-button{
-    color: $primary-color;
-    font-family:'Josefin Sans', sans-serif;
-    font-size: 25px;
-    justify-self: center;
-    border: none;
-    margin: 5px;
-    cursor: pointer;
-    text-decoration: none;
+.motion-button, .animation-button {
     background-color: $background-color;
-    text-decoration: none;
-       
-}
-.animation-button{
     color: $primary-color;
-    font-family:'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 25px;
     justify-self: center;
     margin: 5px;
     cursor: pointer;
     text-decoration: none;
-    background-color: #964c02;
-    border: none;   
-    text-decoration: none;
-       
-}
-.animation-button a{
-    padding: 5px;
+    border: none;
     
-    text-decoration: none;
-    color: $primary-color;
-   
-   
-    
-}
 
-.motion-button a{
-    padding: 5px;
-    
-    text-decoration: none;
-    color: #0A0908;
-    
-    
-}
+    a {
+      padding: 5px;
+      text-decoration: none;
+      color: $primary-color;
+      
 
-.motion-button a:hover{
-    background-color: $primary-color;
-    border: $primary-color;
-    color: $secondary-color;
-    
-   
-    
-}
-.animation-button a:hover{
-    background-color: $primary-color;
-    border: $primary-color;
-    color: $secondary-color;
-    
-   
-    
-}
+      &:hover {
+        background-color: $primary-color;
+        color: $secondary-color;
+        border: none;
+      }
+    }
+  }
+
+ 
+
 /*Projects
 -----------*/
 .projects {
-   background: $secondary-color;
-   color: $primary-color;
-   
-
-}
-.projects a {
-   color: $primary-color; 
-}
-.content-wrap a {
-color: $primary-color;
-}
-.content-wrap a:hover{
-    color: $secondary-color;
-    background-color: $primary-color;
-}
-.projects .btn {
-    color: $secondary-color;
-    background: $primary-color;
-    text-decoration: none;
-    padding: 8px;
-    border-radius: 4px;
-    display: inline-block;
-}
-.projects .btn:hover {
     background: $secondary-color;
     color: $primary-color;
-}
-.project-item {
+  
+    a {
+      color: $primary-color;
+    }
+  
+    .btn {
+      color: $secondary-color;
+      background: $primary-color;
+      text-decoration: none;
+      padding: 8px;
+      border-radius: 4px;
+      display: inline-block;
+  
+      &:hover {
+        background: $background-color;
+        color: $secondary-color;
+      }
+    }
+  }
+  
+  .content-wrap {
+    a {
+      color: $primary-color;
+  
+      &:hover {
+        color: $secondary-color;
+        background-color: $background-color;
+      }
+    }
+  }
+  
+  .project-item {
     overflow: hidden;
-    
-}
-
-.project-item h3 {
-    margin-top: 0;
-}
+  
+    h3 {
+      margin-top: 0;
+    }
+  }
 
 /*Work Experience
 -----------*/

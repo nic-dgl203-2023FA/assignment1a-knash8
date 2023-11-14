@@ -123,20 +123,8 @@ header p {
   justify-self: center;
 }
 
-.motion-button {
-  color: #0A0908;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 25px;
-  justify-self: center;
-  border: none;
-  margin: 5px;
-  cursor: pointer;
-  text-decoration: none;
+.motion-button, .animation-button {
   background-color: #964C02;
-  text-decoration: none;
-}
-
-.animation-button {
   color: #0A0908;
   font-family: "Josefin Sans", sans-serif;
   font-size: 25px;
@@ -144,33 +132,17 @@ header p {
   margin: 5px;
   cursor: pointer;
   text-decoration: none;
-  background-color: #964c02;
   border: none;
-  text-decoration: none;
 }
-
-.animation-button a {
+.motion-button a, .animation-button a {
   padding: 5px;
   text-decoration: none;
   color: #0A0908;
 }
-
-.motion-button a {
-  padding: 5px;
-  text-decoration: none;
-  color: #0A0908;
-}
-
-.motion-button a:hover {
+.motion-button a:hover, .animation-button a:hover {
   background-color: #0A0908;
-  border: #0A0908;
   color: #EAE0D5;
-}
-
-.animation-button a:hover {
-  background-color: #0A0908;
-  border: #0A0908;
-  color: #EAE0D5;
+  border: none;
 }
 
 /*Projects
@@ -179,20 +151,9 @@ header p {
   background: #EAE0D5;
   color: #0A0908;
 }
-
 .projects a {
   color: #0A0908;
 }
-
-.content-wrap a {
-  color: #0A0908;
-}
-
-.content-wrap a:hover {
-  color: #EAE0D5;
-  background-color: #0A0908;
-}
-
 .projects .btn {
   color: #EAE0D5;
   background: #0A0908;
@@ -201,16 +162,22 @@ header p {
   border-radius: 4px;
   display: inline-block;
 }
-
 .projects .btn:hover {
-  background: #EAE0D5;
+  background: #964C02;
+  color: #EAE0D5;
+}
+
+.content-wrap a {
   color: #0A0908;
+}
+.content-wrap a:hover {
+  color: #EAE0D5;
+  background-color: #964C02;
 }
 
 .project-item {
   overflow: hidden;
 }
-
 .project-item h3 {
   margin-top: 0;
 }
