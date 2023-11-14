@@ -151,8 +151,9 @@ nav .navBar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    display: flex;
+    
   }
+ 
   
   input#navToggle {
     display: none;
@@ -270,12 +271,7 @@ header {
 }
 
 
-.logo img {
-    width: 60px; 
-    height: auto;
-    @include flexCenter;
-    
-}
+
 .motion-button, .animation-button {
     background-color: $background-color;
     color: $primary-color;
