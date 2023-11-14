@@ -104,12 +104,15 @@ h3 {
 
 /*Profile
 -----------*/
+body {
+  background-color: #0A0908;
+}
+
 header p {
   font-style: italic;
 }
 
 header {
-  background: #0A0908;
   color: #EAE0D5;
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
@@ -155,28 +158,24 @@ header p {
   padding: 5px;
   text-decoration: none;
   color: #0A0908;
-  border: 4px double #EAE0D5;
 }
 
 .motion-button a {
   padding: 5px;
   text-decoration: none;
   color: #0A0908;
-  border: 4px double #EAE0D5;
 }
 
 .motion-button a:hover {
   background-color: #0A0908;
   border: #0A0908;
   color: #EAE0D5;
-  border: 4px double #EAE0D5;
 }
 
 .animation-button a:hover {
   background-color: #0A0908;
   border: #0A0908;
   color: #EAE0D5;
-  border: 4px double #EAE0D5;
 }
 
 /*Projects
@@ -310,7 +309,6 @@ body {
   background-color: #0A0908;
 }
 
-/*--------------- navBar -----------*/
 /*--------------2. grid -----------------*/
 .grid-container {
   background-color: #C6AC8F;
