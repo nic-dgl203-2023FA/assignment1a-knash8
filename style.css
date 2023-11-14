@@ -509,7 +509,7 @@ animation: fade 5s linear infinite;
 
 
 /*keyframes*/ 
-.logo {
+.logo:hover {
     animation: spin 4s linear infinite; 
   }
 
