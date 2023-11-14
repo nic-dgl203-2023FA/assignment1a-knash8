@@ -27,101 +27,119 @@ $background-color: #964C02;
   }
 
 
-/*Global Styles
------------*/
-html {
+  html {
     box-sizing: border-box;
-}
-*, *:before, *:after {
+  }
+  
+  *, *:before, *:after {
     box-sizing: inherit;
-}
-body {
+  }
+  
+  body {
     color: $primary-color;
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 1.5;
-}
-img {
+  }
+  
+  img {
     width: 300px;
-}
-.projects a {
+  }
+  
+  
+  .projects a {
     color: $secondary-color;
     text-decoration: none;
-}
-
-.projects p a {
+  
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  
+  .projects p a {
     color: $primary-color;
     text-decoration: underline;
-    
-}
-a:hover {
-    text-decoration: none;
-}
-h1 {
+  
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  
+  
+  h1 {
     font-size: 100px;
     line-height: 1;
     padding-top: 40px;
-}
-h2 {
+  }
+  
+  h2 {
     font-size: 45px;
-}
-h1, h2 {
+  }
+  
+  h1, h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     margin: 0;
-}
-.content-wrap {
+  }
+  
+  
+  .content-wrap {
     max-width: 800px;
     width: 85%;
     margin: 0 auto;
     padding: 60px 0;
-}
-h3 {
+  }
+  
+  h3 {
     margin-bottom: 0;
-}
-.item-details h3 + p {
+  }
+  
+  .item-details h3 + p {
     font-style: italic;
-}
-.item-details h3 ~ p {
+  }
+  
+  .item-details h3 ~ p {
     margin: 0;
-}
-.divider > section {
-    border-bottom:1px dashed $primary-color;
+  }
+  
+  
+  .divider > section {
+    border-bottom: 1px dashed $primary-color;
     padding: 25px 0;
-}
-.divider > section:last-of-type {
+  }
+  
+  .divider > section:last-of-type {
     border-bottom: none;
-}
-.intro{
-    
+  }
+  
+ 
+  .intro {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(./images/rafael.jpg);
     background-size: cover;
     background-position: top right;
-   
     position: relative;
-}
+    
+  }
 
 /*Profile
 -----------*/
-body {
-    background-color: $primary-color;
+.profile {
+    background-color: $background-color;
 }
 
-header p {
-    font-style: italic;
-}
 header {
-    
     color: $secondary-color;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
+
+    p{
+        font-style: italic;
+    }
 }
-header p {
-    font-style: italic;
-    
-}
+
+
 .logo img {
     width: 60px; 
     height: auto;

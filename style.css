@@ -14,8 +14,6 @@ almond #EAE0D5
 khaki #C6AC8F
 walnut brown #5E503F
 -------------*/
-/*Global Styles
------------*/
 html {
   box-sizing: border-box;
 }
@@ -41,13 +39,15 @@ img {
   color: #EAE0D5;
   text-decoration: none;
 }
+.projects a:hover {
+  text-decoration: none;
+}
 
 .projects p a {
   color: #0A0908;
   text-decoration: underline;
 }
-
-a:hover {
+.projects p a:hover {
   text-decoration: none;
 }
 
@@ -104,12 +104,8 @@ h3 {
 
 /*Profile
 -----------*/
-body {
-  background-color: #0A0908;
-}
-
-header p {
-  font-style: italic;
+.profile {
+  background-color: #964C02;
 }
 
 header {
@@ -117,7 +113,6 @@ header {
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
 }
-
 header p {
   font-style: italic;
 }
