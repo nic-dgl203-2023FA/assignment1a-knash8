@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  color: #22333B;
+  color: #0A0908;
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
@@ -87,7 +87,7 @@ h3 {
 }
 
 .divider > section {
-  border-bottom: 1px dashed #343434;
+  border-bottom: 1px dashed #0A0908;
   padding: 25px 0;
 }
 
@@ -137,7 +137,7 @@ header p {
   margin: 5px;
   cursor: pointer;
   text-decoration: none;
-  background-color: #964c02;
+  background-color: #964C02;
   text-decoration: none;
 }
 
@@ -195,7 +195,7 @@ header p {
 
 .content-wrap a:hover {
   color: #EAE0D5;
-  background-color: #343434;
+  background-color: #0A0908;
 }
 
 .projects .btn {
@@ -224,7 +224,7 @@ header p {
 -----------*/
 .work-experience {
   background: #0A0908;
-  color: #C6AC8F;
+  color: #EAE0D5;
 }
 
 /*Education
@@ -244,7 +244,7 @@ header p {
 /*Contact Info
 -----------*/
 footer {
-  background: #964c02;
+  background: #964C02;
   color: #0A0908;
 }
 
@@ -298,7 +298,7 @@ footer {
     font-size: 0.5rem;
   }
   .grid-container {
-    background-color: #C6AC8F;
+    background-color: #EAE0D5;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
@@ -311,7 +311,7 @@ body {
 
 /*--------------2. grid -----------------*/
 .grid-container {
-  background-color: #C6AC8F;
+  background-color: #EAE0D5;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 200px;
@@ -636,7 +636,7 @@ body {
 /* used chatgpt for help on grid-item-6 - make an image bounce with a css cubic bezier curve*/
 nav {
   width: 100%;
-  background-color: #964c02;
+  background-color: #964C02;
 }
 
 nav .navBar {
