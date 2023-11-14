@@ -16,9 +16,14 @@ almond #EAE0D5
 khaki #C6AC8F
 walnut brown #5E503F
 -------------*/
+
+/*variables*/ 
 $primary-color: #0A0908;
 $secondary-color: #EAE0D5;
 $background-color: #964C02;
+
+$font-family: 'Josefin Sans', sans-serif;
+
 
 @mixin flexCenter {
     display: flex;
@@ -53,7 +58,7 @@ nav .navBar {
     color: $primary-color;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $font-family;
     font-size: 15px;
     line-height: 1.5;
   }
@@ -93,7 +98,7 @@ nav .navBar {
   }
   
   h1, h2 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family:$font-family;
     font-weight: 400;
     margin: 0;
   }
@@ -262,7 +267,7 @@ nav .navBar {
 
 header {
     color: $secondary-color;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: $font-family;
     font-size: 20px;
 
     p{
@@ -275,7 +280,7 @@ header {
 .motion-button, .animation-button {
     background-color: $background-color;
     color: $primary-color;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: $font-family;
     font-size: 25px;
     justify-self: center;
     margin: 5px;
@@ -469,7 +474,7 @@ body{
     align-self: center;
     display: block;
     font-size: 20px;
-    font-family:'Josefin Sans', sans-serif ; 
+    font-family:$font-family ; 
     border:2px solid #22333B;
     text-align: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -486,7 +491,7 @@ body{
     box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.5), 0 0 75px rgba(0, 0, 0, 0.75);
     align-self: center;
     display: block;
-    font-family:'Josefin Sans', sans-serif ;
+    font-family:$font-family ;
 }
 
 .grid-item-2 {
@@ -518,7 +523,7 @@ body{
     color: $primary-color;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Josefin Sans', sans-serif ;
+    font-family: $font-family ;
     align-self: center;
     justify-content: center;
     overflow: hidden;
@@ -537,7 +542,7 @@ body{
     font-size: 35px;
     color: $primary-color;
     font-weight:bolder;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: $font-family;
     text-align: center;
     perspective: 1000px;
         transform-style: preserve-3d;}
@@ -611,7 +616,7 @@ animation: fade 5s linear infinite;
     transform-origin: center;
 }
 
-#g, #b, #o, #o2, #o3, #o4, #o5 {
+#g, #b, #o4, #o5 {
     transform-origin: center;    
     filter: drop-shadow(0 6px 8px rgba(255, 255, 255, 1));
   }
