@@ -34,6 +34,20 @@ $background-color: #964C02;
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
+  nav {
+    width: 100%;
+    background-color: $background-color;
+}
+nav .navBar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    color: $secondary-color;
+}
   
   body {
     color: $primary-color;
@@ -382,11 +396,9 @@ body{
     overflow: hidden;
     animation: sweep 5s infinite;
     
-    
-}
-.grid-item-3 img {
-    width: 100px;
-    
+     img {
+        width: 100px;
+    }
 }
 
 .grid-item-4 h1{
@@ -401,10 +413,8 @@ body{
     white-space: nowrap;
     margin: 0 auto;
     padding: .5em;
-
     letter-spacing: 2px;
-
-    animation: typing 4s steps(20, end) infinite,
+    animation: typing 6s steps(26, end) infinite,
     blinking .5s step-end infinite;
 }
 
@@ -417,22 +427,17 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     perspective: 1000px;
-    transform-style: preserve-3d;
-    
-    
-}
+        transform-style: preserve-3d;}
 
+    .grid-item-5 p{
+        display: flex;
+            justify-content: center;}
 
-.grid-item-5 p{
-    display: flex;
-    justify-content: center;
-}
+        .grid-item-5 p span{
+            animation: flipUp 1s both infinite;    
+            animation-fill-mode: forwards;
+        }
 
-.grid-item-5 p span{
-    animation: flipUp 1s both infinite;
-    /* transform-origin: 50% 70%; */
-    animation-fill-mode: forwards;
-}
 
 
 .grid-item-5 span:nth-child(2){
@@ -453,17 +458,13 @@ body{
     justify-self: center;
     align-self: center;
     animation: bounce 2s cubic-bezier(0.68, 0, 0.27, 1.55) infinite;
-}
-
-
-.grid-item-6 img {
-    width: 100px;
+    
+    img {
+        width: 100px;
+    }
 }
 
 /*animation*/
-
-
-
 #Layer_3 { 
     transform-origin: center;   
     animation: fly2 5s alternate-reverse infinite;
@@ -620,7 +621,8 @@ animation: fade 5s linear infinite;
 
 @keyframes sweep {
     0% {transform:translateX(0);}
-    50% {transform:translateX(-800px);}
+    50% {transform:translateX(-300px);}
+    75% {transform:translateX(100px);}
     100% {transform:translateX(0);}
 }
 
@@ -661,28 +663,9 @@ animation: fade 5s linear infinite;
       }
 }
 
-
-
-
-
-
-
-
 /* used chatgpt for help on grid-item-6 - make an image bounce with a css cubic bezier curve*/
 
-nav {
-    width: 100%;
-    background-color: $background-color;
-}
-nav .navBar {
-    width: 60%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
-    color: $secondary-color;
-}
+
 
 /* variable fonts*/
 

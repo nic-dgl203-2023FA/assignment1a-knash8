@@ -22,6 +22,21 @@ html {
   box-sizing: inherit;
 }
 
+nav {
+  width: 100%;
+  background-color: #964C02;
+}
+
+nav .navBar {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  color: #EAE0D5;
+}
+
 body {
   color: #0A0908;
   margin: 0;
@@ -328,7 +343,6 @@ body {
   overflow: hidden;
   animation: sweep 5s infinite;
 }
-
 .grid-item-3 img {
   width: 100px;
 }
@@ -346,7 +360,7 @@ body {
   margin: 0 auto;
   padding: 0.5em;
   letter-spacing: 2px;
-  animation: typing 4s steps(20, end) infinite, blinking 0.5s step-end infinite;
+  animation: typing 6s steps(26, end) infinite, blinking 0.5s step-end infinite;
 }
 
 .grid-item-5 {
@@ -366,7 +380,6 @@ body {
 
 .grid-item-5 p span {
   animation: flipUp 1s both infinite;
-  /* transform-origin: 50% 70%; */
   animation-fill-mode: forwards;
 }
 
@@ -392,7 +405,6 @@ body {
   align-self: center;
   animation: bounce 2s cubic-bezier(0.68, 0, 0.27, 1.55) infinite;
 }
-
 .grid-item-6 img {
   width: 100px;
 }
@@ -551,7 +563,10 @@ body {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(-800px);
+    transform: translateX(-300px);
+  }
+  75% {
+    transform: translateX(100px);
   }
   100% {
     transform: translateX(0);
@@ -593,21 +608,6 @@ body {
   }
 }
 /* used chatgpt for help on grid-item-6 - make an image bounce with a css cubic bezier curve*/
-nav {
-  width: 100%;
-  background-color: #964C02;
-}
-
-nav .navBar {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 20px;
-  color: #EAE0D5;
-}
-
 /* variable fonts*/
 .animation-header {
   font-family: "Recursive", sans-serif;
