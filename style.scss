@@ -16,9 +16,14 @@ almond #EAE0D5
 khaki #C6AC8F
 walnut brown #5E503F
 -------------*/
+
+/*variables*/ 
 $primary-color: #0A0908;
 $secondary-color: #EAE0D5;
 $background-color: #964C02;
+
+$font-family: 'Josefin Sans', sans-serif;
+
 
 @mixin flexCenter {
     display: flex;
@@ -53,7 +58,7 @@ nav .navBar {
     color: $primary-color;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $font-family;
     font-size: 15px;
     line-height: 1.5;
   }
@@ -93,7 +98,7 @@ nav .navBar {
   }
   
   h1, h2 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family:$font-family;
     font-weight: 400;
     margin: 0;
   }
@@ -262,7 +267,7 @@ nav .navBar {
 
 header {
     color: $secondary-color;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: $font-family;
     font-size: 20px;
 
     p{
@@ -275,7 +280,7 @@ header {
 .motion-button, .animation-button {
     background-color: $background-color;
     color: $primary-color;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: $font-family;
     font-size: 25px;
     justify-self: center;
     margin: 5px;
@@ -390,57 +395,6 @@ body{
 }
 
 
-/* Responsive Styles */
-@media screen and (min-width: 750px) {
-    header, footer {
-      text-align: center;
-    }
-  
-    .project-item img {
-      float: left;
-      margin-right: 20px;
-    }
-  
-    .job-item {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      column-gap: 20px;
-    }
-  
-    .contact-list {
-      display: flex;
-      justify-content: center;
-    }
-  }
-  
-  @media screen and (max-width: 749px) {
-    h1 {
-      font-size: 75px;
-      line-height: 0.9;
-      margin-bottom: 20px;
-    }
-  
-    h2 {
-      line-height: 1;
-    }
-  
-    .contact-list a {
-      padding: 5px;
-    }
-  
-    nav {
-      display: flex;
-      width: 100%;
-      padding: 0;
-      font-size: 0.5rem;
-    }
-  
-    .grid-container {
-      background-color: $secondary-color;
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
 
 
 /*--------------2. grid -----------------*/
@@ -461,6 +415,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 1em;
 }
 
 .grid-item-button button{  
@@ -469,7 +424,7 @@ body{
     align-self: center;
     display: block;
     font-size: 20px;
-    font-family:'Josefin Sans', sans-serif ; 
+    font-family:$font-family ; 
     border:2px solid #22333B;
     text-align: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -486,28 +441,35 @@ body{
     box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.5), 0 0 75px rgba(0, 0, 0, 0.75);
     align-self: center;
     display: block;
-    font-family:'Josefin Sans', sans-serif ;
+    font-family:$font-family ;
 }
 
 .grid-item-2 {
     color: $primary-color;
     font-size: 30px;
     font-weight: bold;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all 2s ease;
     animation: growShrinkgrow 16s infinite;
+    padding: 1em;
+}
+
+.grid-item-2 p{
+    position: absolute;
 }
 
 
 
-
 .grid-item-3 {
+    display: flex;
     justify-self: center;
     align-self: center;
     overflow: hidden;
     animation: sweep 5s infinite;
+    padding: 1em;
     
      img {
         width: 100px;
@@ -515,13 +477,15 @@ body{
 }
 
 .grid-item-4 h1{
+    display: flex;
     color: $primary-color;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Josefin Sans', sans-serif ;
+    font-family: $font-family ;
     align-self: center;
     justify-content: center;
     overflow: hidden;
+    padding: 1em;
     border-right: 3px solid $primary-color;
     white-space: nowrap;
     margin: 0 auto;
@@ -537,14 +501,16 @@ body{
     font-size: 35px;
     color: $primary-color;
     font-weight:bolder;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: $font-family;
     text-align: center;
     perspective: 1000px;
         transform-style: preserve-3d;}
 
     .grid-item-5 p{
         display: flex;
-            justify-content: center;}
+        justify-content: center;
+        padding: 1em;
+    }
 
         .grid-item-5 p span{
             animation: flipUp 1s both infinite;    
@@ -570,6 +536,7 @@ body{
     display: flex;
     justify-self: center;
     align-self: center;
+    padding: 1em;
     animation: bounce 2s cubic-bezier(0.68, 0, 0.27, 1.55) infinite;
     
     img {
@@ -611,7 +578,7 @@ animation: fade 5s linear infinite;
     transform-origin: center;
 }
 
-#g, #b, #o, #o2, #o3, #o4, #o5 {
+#g, #b, #o4, #o5 {
     transform-origin: center;    
     filter: drop-shadow(0 6px 8px rgba(255, 255, 255, 1));
   }
@@ -719,16 +686,16 @@ animation: fade 5s linear infinite;
 
 @keyframes growShrinkgrow{
     0%{
-        font-size: 30px;
+        font-size: 10px;
     }
     30%{
-        font-size: 50px;
+        font-size: 30px;
     }
     70%{
-        font-size: 15px;
+        font-size: 5px;
     }
     100%{
-        font-size: 30px;
+        font-size: 10px;
     }
 }
 
@@ -809,3 +776,61 @@ animation: fade 5s linear infinite;
         font-variation-settings: "CASL" 1, "CRSV" 1, "wght" 300, "slnt" -5;  
       }
 }
+
+/* Responsive Styles */
+@media screen and (min-width: 750px) {
+    header, footer {
+      text-align: center;
+    }
+  
+    .project-item img {
+      float: left;
+      margin-right: 20px;
+    }
+  
+    .job-item {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      column-gap: 20px;
+    }
+  
+    .contact-list {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 749px) {
+    h1 {
+      font-size: 75px;
+      line-height: 0.9;
+      margin-bottom: 20px;
+    }
+  
+    h2 {
+      line-height: 1;
+    }
+  
+    .contact-list a {
+      padding: 5px;
+    }
+  
+    nav {
+      display: flex;
+      width: 100%;
+      padding: 0;
+      font-size: 0.5rem;
+    }
+    .motion-header .animation-header{
+        box-sizing: border-box;
+        text-align: center;
+        
+
+    }
+  
+    .grid-container {
+      background-color: $secondary-color;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
