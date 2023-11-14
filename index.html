@@ -23,23 +23,17 @@
     <main>
       <!-- ***********************  Nav Bar  *********************** -->
             
-      
-        <nav>
-          <div class="navBar">
-
-            <div class="logo">
-              <a href="index.html"><img src="images/knblk.svg" width="50" alt="Logo"></a>
-            </div>
-            <span>
-              
-              <button class="motion-button"><a href="motion.html">MOTION</a>
-              </button>
-              <button class="animation-button"><a href="animation.html">ANIMATION</a>
-              </button>
-            </span>
-          </div>        
-        </nav>
-
+        <section class="navWrap">
+       <input type="checkbox" id="navToggle" class="navToggle">
+       <label for="navToggle" class="navToggleLabel"><span></span></label>
+       <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="motion.html">MOTION</a></li>
+          <li><a href="animation.html">ANIMATION</a></li>
+        </ul>
+       </nav>
+        </section>
 
               
         <!-- ***********************  ABOUT / PROFILE  *********************** -->     
@@ -149,5 +143,6 @@
         </div>
       </footer>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
