@@ -218,8 +218,13 @@ footer .contact-list a {
   display: inline-block;
 }
 
-/*Responsive
+/*Motion Page
 -----------*/
+body {
+  background-color: #0A0908;
+}
+
+/* Responsive Styles */
 @media screen and (min-width: 750px) {
   header, footer {
     text-align: center;
@@ -263,12 +268,6 @@ footer .contact-list a {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-/*Motion Page
------------*/
-body {
-  background-color: #0A0908;
-}
-
 /*--------------2. grid -----------------*/
 .grid-container {
   background-color: #EAE0D5;
@@ -600,7 +599,7 @@ nav {
 }
 
 nav .navBar {
-  width: 60%;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between;
