@@ -135,7 +135,9 @@ header p {
 .logo img {
   width: 60px;
   height: auto;
-  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .motion-button, .animation-button {
