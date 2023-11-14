@@ -209,13 +209,11 @@ footer {
   background: #964C02;
   color: #0A0908;
 }
-
-.contact-list {
+footer .contact-list {
   list-style-type: none;
   padding: 0;
 }
-
-.contact-list a {
+footer .contact-list a {
   padding: 15px;
   display: inline-block;
 }

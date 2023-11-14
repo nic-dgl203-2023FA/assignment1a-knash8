@@ -243,15 +243,16 @@ header {
 footer {
     background: $background-color;
     color: $primary-color;
-}
-.contact-list {
-    list-style-type: none;
-    padding: 0;
+
+    .contact-list {
+        list-style-type: none;
+        padding: 0;
     
-}
-.contact-list a {
-    padding: 15px;
-    display: inline-block;
+        a {
+            padding: 15px;
+            display: inline-block;
+        }
+    }
 }
 
 /*Responsive
