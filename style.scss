@@ -20,6 +20,12 @@ $primary-color: #0A0908;
 $secondary-color: #EAE0D5;
 $background-color: #964C02;
 
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
 /*Global Styles
 -----------*/
